@@ -1,0 +1,16 @@
+[package]
+name = "cosmic-applet-hermes"
+version = "0.1.0"
+edition = "2021"
+authors = ["ashrafpy"]
+description = "COSMIC panel applet for monitoring and controlling the Hermes Agent Gateway"
+license = "MIT"
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["std", "clock"] }
+tokio = { version = "1", features = ["rt", "time", "process", "macros", "sync", "io-util"] }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic"
+default-features = false
+features = ["applet", "tokio", "wayland"]

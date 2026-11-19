@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Hermes Gateway
+Comment=Monitor and control Hermes Agent Gateway
+Type=Application
+Exec=cosmic-applet-hermes
+Terminal=false
+Categories=COSMIC;Utility;
+Keywords=COSMIC;Applet;Hermes;Gateway;
+Icon=io.github.hermes.CosmicAppletHermes-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicShrinkable=true
+X-CosmicHoverPopup=Auto
+X-OverflowPriority=10

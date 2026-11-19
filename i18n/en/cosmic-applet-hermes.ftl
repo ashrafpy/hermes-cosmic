@@ -1,0 +1,15 @@
+app-name = Hermes Gateway
+gateway-status = Gateway Status
+uptime = Uptime
+profiles = Profiles
+connected = { $count } connected
+current = (current)
+start = Start
+stop = Stop
+restart = Restart
+running = ● Running
+stopped = ○ Stopped
+working = Working...
+error = Error
+tooltip-running = Hermes Gateway: Running
+tooltip-stopped = Hermes Gateway: Stopped
